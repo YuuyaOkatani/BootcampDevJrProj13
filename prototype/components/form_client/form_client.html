@@ -1,0 +1,42 @@
+<form class="row g-3">
+
+            
+
+    <div class="row">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="formGroupExampleInput"
+                placeholder="Example input placeholder">
+            <small class="text text-danger text-start">O nome é requerido!</small>
+        </div>
+        <div class="col-6">
+            <label for="formGroupExampleInput" class="form-label">Telefone</label>
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            <small class="text text-danger text-start">O nome é requerido!</small>
+        </div>
+        <div class="col-6">
+            <label for="formGroupExampleInput" class="form-label">Data de Nascimento</label>
+            <form class="row row-cols-sm-auto">
+                <div class="col-12">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="yyyy-mm-dd" name="dp"
+                            [displayMonths]="displayMonths" [navigation]="navigation"
+                            [outsideDays]="outsideDays" [showWeekNumbers]="showWeekNumbers" ngbDatepicker
+                            #d="ngbDatepicker" />
+                        <button class="btn btn-outline-secondary bi bi-calendar3" (click)="d.toggle()"
+                            type="button"></button>
+                    </div>
+                </div>
+            </form>
+            <small class="text text-danger text-start">Data de nascimento é requerido!</small>
+        </div>
+        <div class="col-12 mt-5 d-flex flex-row-reverse gap-2">
+            <a href="/prototype/pages/clients.html" type="button" class="btn btn-secondary">
+                Cancelar
+            </a>
+            <a href="/prototype/pages/clients.html" type="button" class="btn btn-primary">Salvar</a>
+        </div>
+    </div>
+    
+
+</form>
