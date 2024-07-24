@@ -1,0 +1,84 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.day{
+    font-weight: 500;
+    border-radius: 6px;
+    margin: 1px;
+    font-size: 0.9rem;
+}
+
+.day-off{
+    background-color: whitesmoke;
+    color: gray;
+
+}
+
+.day-avaliable{
+    background-color: rgb(146, 146, 255);
+    color: white;
+
+
+}
+
+.day-avaliable:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.day-selected{
+    background-color: rgb(255, 255, 0);
+    color: black;
+    font-weight: 700;
+
+}
+
+.week-day{
+    font-weight: 500;
+    padding: 6px;
+    margin: 1px;
+}
+
+.previous-month{
+    cursor: pointer;
+
+}
+
+.month-year{
+    font-weight: 500;
+
+}
+
+.next-month{
+    cursor: pointer;
+
+}
+
+.time{
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 1px;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.time-off{
+    background-color: whitesmoke;
+    color: gray;
+}
+
+.time-avaliable{
+    background-color: rgb(146, 146, 255);
+    color: white;
+}
+
+.time-selected{
+    background-color: rgb(255, 255, 0);
+    color: black;
+    font-weight: 700;
+}
+
+.time-avaliable:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
